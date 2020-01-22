@@ -1,5 +1,9 @@
 Minecraft Auto Clicker
 
+* If you get "Minecraft Not Running" go into the main.cs, line 25 and change "Minecraft" to your username.
+
+------------------------------------------------------------
+
 * Be sure to go into options.txt in your .minecraft folder and set "pauseOnLostFocus" to "false"
 * Must be done with Minecraft closed
 
