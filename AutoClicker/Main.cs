@@ -21,7 +21,7 @@ namespace AutoClicker
         {
             try
             {
-                EnableElements(false);
+                EnableElements(false);                                                                                        //Replace Minecraft with your username 
                 var mcProcesses = Process.GetProcesses().Where(b => b.ProcessName.StartsWith("java") && b.MainWindowTitle.Contains("Minecraft")).ToList();
                 var mainHandle = Handle;
 
